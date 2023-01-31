@@ -1,0 +1,10 @@
+global: 52428800
+
+configs:
+  - bizLine: user
+    maxLength: 10485760
+    subs:
+      - bizLine: /user/next
+        maxLength: 20485760
+  - bizLine: data
+    maxLength: 1000000
